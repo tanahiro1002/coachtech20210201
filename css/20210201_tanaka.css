@@ -1,0 +1,493 @@
+@charset "UTF-8";
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+li {
+  list-style: none;
+  
+}
+
+body {
+  width: 2000px;
+  height: 5000px;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  height: 80px;
+}
+
+.header-logo {
+  padding: 25px 30px;
+  float: left;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.header-list li {
+  padding: 30px 20px;
+  float: right;
+}
+
+.main {
+  background-color: white;
+}
+
+.top-wrapper {
+  height: 900px;
+  background-image: url(../img3/eyecatch.jpg);
+  background-size: 100％;
+}
+
+h2 {
+  padding-top: 300px;
+  margin-left: 250px;
+  color: white;
+  font-size: 48px;
+  font-style: italic;
+}
+
+.news {
+  color: white;
+  background-color: #000;
+  padding: 30px 80px;
+  float: right;
+  margin-top: 475px;
+}
+
+.report {
+  width: 500px;
+  height: 40px;
+  padding-bottom: 40px;
+  padding-right: 80px;
+  margin-top: 475px;
+  color: #000;
+  background-color: white;
+  white-space: pre;
+  float: right;
+  text-align: left;
+  font-size: 14px;
+}
+
+.mission {
+  height: 1200px;
+  background-color: white;
+}
+
+.misson-container {
+  height: 1000px;
+  background-color: black;
+}
+
+.misson-container h3 {
+  color: white;
+  font-size: 28px;
+  padding-top: 350px;
+  padding-bottom: 50px;
+  padding-left: 450px;
+}
+
+.misson-container img {
+  width: 900px;
+  height: 610px;
+  float: right;
+  margin-bottom: 100px;
+  margin-right: 50px;
+}
+
+.misson-container p {
+  color: white;
+  white-space: pre;
+  font-size: 14px;
+  padding-left: 410px;
+  line-height: 180%;
+}
+
+.misson-submit {
+  padding: 10px 40px;
+  margin-top: 30px;
+  margin-left: 450px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.service {
+  height: 2400px;
+  background-color: white;
+}
+
+.service-container {
+  height: 2100px;
+  background-color: #cccccc;
+  margin-top: 150px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+p1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 0 auto;
+
+}
+
+.service-contents {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.service-image {
+  background-image: url(../img3/service2.jpg);
+  width: 1000px;
+  height: 700px;
+  float: right;
+  background-size: 100%;
+}
+
+.service-content1 {
+  width: 800px;
+  height: 400px;
+  margin-top: 180px;
+  float: left;
+  margin-left: 150px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  white-space: pre;
+  line-height: 150%;
+  position: absolute;
+  left: 150px;
+}
+
+.service-content1 h4 {
+  margin-top: 50px;
+  margin-left: 160px;
+  font-size: 20px;
+}
+
+.service-content1 p2 {
+  margin-left: 100px;
+}
+
+.service-content1 p3 {
+  float: left;
+  margin-left: 90px;
+}
+
+.service-submit {
+  padding: 15px 50px;
+  margin-right: 160px;
+  float: right;
+  background-color: white;
+  border: 1px solid #000;
+}
+
+ .service-contents2 {
+   margin-top: 60px;
+ } 
+
+ .service-content2 {
+  width: 800px;
+  height: 400px;
+  float: right;
+  background-color: white;
+  border: 1px solid #cccccc;
+  white-space: pre;
+  line-height: 150%;
+  position: relative;
+  top: 1050px;
+  left: 700px;
+ }
+
+ .service-content2 h4 {
+   margin-top: 50px;
+   margin-right: 380px;
+   font-size: 20px;
+ }
+
+ .service-content2 p2 {
+   margin-right: 390px;
+ }
+
+ .service-content2 p3 {
+
+ }
+
+ .service-submit2 {
+   padding: 15px 50px;
+   margin-right: 160px;
+   float: right;
+   background-color: white;
+   border: 1px solid #000;
+
+ }
+
+ .service-image2 {
+   width: 1000px;
+   height: 700px;
+   float: left;
+   margin-top: 250px;
+   margin-right: 200px;
+   background-image: url(../img3/service1.jpg);
+   background-size: cover;
+
+ }
+
+ .company {
+   height: 1000px;
+   background-color: white;
+ }
+
+ .company-icon {
+   position: relative;
+ }
+
+ .company-icon img {
+   float: left;
+   width: 900px;
+   height: 350px;
+   background-size: 100%;
+ }
+
+ .company-icon p1 {
+   position: absolute;
+   top: 110px;
+   left: 310px;
+   color: white;
+   font-size: 42px;
+ }
+
+ .company-icon p2 {
+   position: absolute;
+   top: 170px;
+   left: 380px;
+   color: white;
+   font-weight: bold;
+ }
+
+ .recruit-icon {
+   position: relative;
+ }
+
+ .recruit-icon img {
+   float: right;
+   width: 900px;
+   height: 350px;
+   background-size: 100%;
+ }
+
+ .recruit-icon p3 {
+   position: absolute;
+   top: 110px;
+   right: 340px;
+   font-size: 42px;
+   font-weight: bold;
+   color: white;
+ }
+
+ .recruit-icon p4 {
+   position: absolute;
+   top: 170px;
+   right: 380px;
+   color: white;
+   font-weight: bold;
+ }
+
+ .faq {
+   position: relative;
+   width: 1400px;
+   height: 150px;
+   background-color: #000;
+   top: 500px;
+   left: 300px;
+ }
+
+ .faq p5 {
+   position: absolute;
+   font-size: 42px;
+   font-weight: bold;
+   color: white;
+   top: 50px;
+   left: 50px;
+  }
+
+ .faq p6 {
+   position: absolute;
+   color: white;
+   font-size: 24px;
+   top: 60px;
+   left: 620px;
+  }
+
+  .contact {
+    height: 900px;
+    background-image: url(../img3/contact-bg.jpg);
+    background-size: 100%;
+    position: relative;
+  }
+
+  .contact-container {
+    color: white;
+    text-align: center;
+  }
+
+  .contact-container h3 {
+    font-size: 42px;
+    position: absolute;
+    top: 400px;
+    left: 930px;
+
+  }
+
+  .contact-container p1 {
+    font-size: 16px;
+    position: absolute;
+    top: 470px;
+    left: 970px;
+  }
+
+  .contact-container p2 {
+    font-size: 42px;
+    position: absolute;
+    top: 550px;
+    left: 700px;
+  }
+
+  .contact-container p3 {
+    position: absolute;
+    top: 630px;
+    left: 400px;
+  }
+
+  .link {
+    padding: 10px 25px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    border: 1px #fff solid;
+    position: absolute;
+    top: 690px;
+    left: 940px;
+    font-weight: bold;
+  }
+
+  .footer {
+    background-color: #000;
+    color: #fff;
+    height: 120px;
+    position: relative;
+  }
+
+  .footer-logo {
+    padding: 25px 30px;
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .footer-list li {
+    padding: 30px 20px;
+    float: right;
+  }
+
+  .footer-copylight {
+    position: absolute;
+    top: 100px;
+    left: 850px;
+  }
+ 
+
